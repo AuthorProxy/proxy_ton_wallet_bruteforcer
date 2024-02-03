@@ -1,0 +1,23 @@
+{
+  "name": "proxy_ton_wallet_bruteforcer",
+  "version": "1.0.0",
+  "description": "Simple seed phrase ton network bruteforcer",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "AuthorProxy",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.54.0",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/node-persist": "^3.1.8",
+    "typescript": "^5.3.3"
+  }
+}
